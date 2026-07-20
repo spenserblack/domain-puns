@@ -1,4 +1,7 @@
-# `domain-puns`
+# domain_puns
+
+[![Package Version](https://img.shields.io/hexpm/v/domain_puns)](https://hex.pm/packages/domain_puns)
+[![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/domain_puns/)
 
 ## Description
 
