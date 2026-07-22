@@ -11,6 +11,17 @@ try to use the top-level domain as part of the word or phrase. For example, inst
 
 Also, I wrote this to have a chance to learn and use [Gleam](https://gleam.run).
 
+## Example
+
+```console
+$ gleam run -m domain_puns myfavoritecolorisblue
+myfavoritecoloris.blue
+
+# International domains are supported
+$ gleam run -m domain_puns heyみんな
+hey.みんな
+```
+
 ## Domains
 
 The domains are sourced from <https://data.iana.org/TLD/tlds-alpha-by-domain.txt>, which is linked
