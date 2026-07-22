@@ -7,13 +7,16 @@ import gleam/result
 import gleam/string
 import glidna/punycode
 
-const usage: String = "domain_puns <PROJECT_NAME>"
-
 pub fn main() -> Nil {
-  case argv.load().arguments {
+  let args = argv.load()
+  case args.arguments {
     [name] -> suggestions(domains.domains, name) |> list.each(io.println)
-    _ -> io.println_error(usage)
+    _ -> args.program |> usage |> io.println_error
   }
+}
+
+fn usage(exe: String) -> String {
+  exe <> " <PROJECT_NAME>"
 }
 
 /// Uses the list of top-level domains to suggest domains for your site's name.
