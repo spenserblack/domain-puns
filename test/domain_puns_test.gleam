@@ -5,7 +5,6 @@ pub fn main() -> Nil {
   gleeunit.main()
 }
 
-// gleeunit test functions end in `_test`
 pub fn suggestions_test() {
   let name = "myfavoritecolorisblue"
   let domains = ["BLUE", "E", "WIBBLE", "WOBBLE"]
