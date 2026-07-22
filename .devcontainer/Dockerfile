@@ -1,6 +1,6 @@
 ARG VARIANT="3-resolute"
-ARG GLEAM="1.17.0"
 FROM mcr.microsoft.com/devcontainers/base:${VARIANT}
+ARG GLEAM="1.17.0"
 RUN \
     apt-get update \
     && apt-get install --yes erlang-dev rebar3 \
