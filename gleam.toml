@@ -1,5 +1,5 @@
 name = "domain_puns"
-version = "1.0.0"
+version = "1.0.1"
 
 description = "CLI tool to help you pick out a domain with a fun top-level (if it exists)"
 licences = ["Apache-2.0"]
